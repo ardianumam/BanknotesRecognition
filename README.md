@@ -19,7 +19,17 @@ The full ogiginal data, raw RMB bill images scanned from the machine, with their
 * Number of images: 2,400 two sides images from 1,200 Renminbi bills
 * Ground truth label: provied in CSV files with 3 columns (1: identifier of the corresponding image filename, 2: serial number (0 means no serial number), 3: length of serial number)
 
-## Cite the paper here
+## How to Run the Code 
+The code provided here is only for testing version (cannot be used for training), in a single '*.py*' file: ```RmbBanknotesRecognition.py```. To run the code:
+* First, download the trained model & sample input images [here](https://drive.google.com/file/d/1Qcu1yHZPfU4qKlm0eIYfkjsAxfG87Rah/view?usp=sharing),
+* Extract and put them in the same folder with the '*.py*' file,
+* Run ```RmbBanknotesRecognition.py```
+Successful execution will give a result as shown below. Note that Figures (c) and (d) are intentionally removed and added one character, respectively, from Figure (b).
+
+![](https://github.com/ardianumam/BanknotesRecognition/blob/master/Prediction_output_of_input_samples.JPG) 
+
+
+## Cite the Paper Here
 ```
 @inproceedings{umam2018BPN,
   title={A Light Deep Learning Based Method for Bank Serial Number Recognition},
