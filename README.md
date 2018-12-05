@@ -21,7 +21,7 @@ The full original data, raw RMB bill images scanned from the machine, with their
 
 ## How to Run the Code 
 The code provided here is only for testing version (cannot be used for training), in a single '*.py*' file: ```RmbBanknotesRecognition.py```. To run the code:
-* First, download the trained model & sample input images [here](https://drive.google.com/file/d/1Qcu1yHZPfU4qKlm0eIYfkjsAxfG87Rah/view?usp=sharing),
+* First, download the trained model & sample input images [here](https://drive.google.com/file/d/1Qcu1yHZPfU4qKlm0eIYfkjsAxfG87Rah/view?usp=sharing). Input images consist of set of face-back scanned RBM bill images (face-back order can be arbitrary as long as two face-back images from a same RMB bill are placed consecutively).
 * Extract and put them in the same folder with the '*.py*' file,
 * Run ```RmbBanknotesRecognition.py``` (used library: Tensoflow, OpenCV, Numpy)
 
