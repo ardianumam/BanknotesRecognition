@@ -25,7 +25,7 @@ The code provided here is only for testing version (cannot be used for training)
 * Extract and put them in the same folder with the '*.py*' file,
 * Run ```RmbBanknotesRecognition.py``` (used library: Tensoflow, OpenCV, Numpy)
 
-Successful execution will give a result as shown below. Note that the serial numbers in Figures (c) and (d) are intentionally removed and added one character, respectively, from Figure (b).
+A successful execution will give a result as shown below. Note that the serial numbers in Figures (c) and (d) are intentionally removed and added one character, respectively, from Figure (b).
 
 ![](https://github.com/ardianumam/BanknotesRecognition/blob/master/Prediction_output_of_input_samples.JPG) 
 
