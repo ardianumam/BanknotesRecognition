@@ -1,4 +1,3 @@
-# BanknotesRecognition
 This repository provides all the dataset with the code used in our paper.
 
 ## Overview of How the Proposed Method Works
