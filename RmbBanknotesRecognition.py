@@ -497,8 +497,12 @@ def postProcessingRoiPred(predTest, n, potRoiTs, cropMoney_i):
     bboxFinal[bboxFinal<0]=0#make sure there is no neg bbox
     if(posClass<=1):
         bill_with_bbox = cropMoney_i[0].reshape((420,1068))
+        if(posClass==1): # ROI is in the top-right, thus, the bill has to be rotated
+            bill_with_bbox = cv2.flip(cv2.flip(bill_with_bbox, 0), 1)
     else:
         bill_with_bbox = cropMoney_i[1].reshape((420, 1068))
+        if(posClass==3): # ROI is in the top-right, thus, the bill has to be rotated
+            bill_with_bbox = cv2.flip(cv2.flip(bill_with_bbox, 0), 1)
     x1 = bboxFinal[0]+22; y1 = bboxFinal[1]+255
     x2 = bboxFinal[2]+22; y2 = bboxFinal[3]+255
     bbox_pred = np.array([x1,y1,x2,y2])
