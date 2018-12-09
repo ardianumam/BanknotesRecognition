@@ -15,7 +15,7 @@ According the flowchart above, we have two groups of training data: (i) for regi
 * Consist of 34 classes ("I" and "O" are treated in the same class with "1" and "0", respectively),
 * Each class has 20 training images.
 
-The full original data, raw RMB bill images scanned from the machine, with their serial number label can be downloaded [here](https://drive.google.com/file/d/1QCLGAhL34i9qIHfbVbG9o6zbKUKEqtOi/view?usp=sharing), with a specification as follows.  
+The full original data, raw RMB bill images scanned from the machine, with their serial number label can be downloaded [here](https://drive.google.com/file/d/1QCLGAhL34i9qIHfbVbG9o6zbKUKEqtOi/view?usp=sharing), with specifications as follows.  
 * Number of images: 2,400 two sides images from 1,200 Renminbi bills,
 * Ground truth label: provided in CSV files with 3 columns (1: identifier of the corresponding image filename, 2: serial number (0 means having no serial number), 3: length of serial number).
 
