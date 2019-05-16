@@ -39,4 +39,4 @@ A successful execution will give a result as shown below. Note that the serial n
   year={2018}
 }
 ```
-The paper can be accessed [here](http://www.vcip2018.org/) (will be updated after the conference day)
+The paper can be accessed [here](https://ieeexplore.ieee.org/document/8698683).
