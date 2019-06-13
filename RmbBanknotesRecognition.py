@@ -887,7 +887,7 @@ def deepnn_classifier(x):
   # Pooling layer - downsamples by 2X.
   h_pool1 = max_pool_2x2(h_conv1)
 
-  # Second convolutional layer -- maps 32 feature maps to 64.
+  # Second convolutional layer -- maps 32 feature maps to 32.
   depth2 = 32
   W_conv2 = weight_variable([5, 5, depth1, depth2])
   b_conv2 = bias_variable([depth2])
